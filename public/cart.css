@@ -1,0 +1,61 @@
+#container{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#top{
+    height:200px;
+    width:100%;
+    background-color: greenyellow;
+}
+#top>h1{
+    font-size: 40px;
+    margin:0 auto;
+    text-align: center;
+    font-family: Bahnschrift;
+}
+#inp{
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: thistle;
+    font-size: 20px;
+    alignment: center;
+    margin-left: 30%;
+}
+#btn{
+    font-size: 24px;
+    width:8%;
+    height:25%;
+    text-align:center;
+    background-color: lemonchiffon;
+}
+ul{
+    list-style-type: none;
+    margin-top:0;
+    width: 80%;
+}
+ul>li{
+    width:100%;
+    background-color: grey;
+    font-size: 30px;
+    margin-bottom: 2px;
+    height:50px;
+
+}
+ul>li>input{
+    width: 65%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: thistle;
+    font-size: 20px;
+}
+ul>li>button{
+    border-radius: 10%;
+    font-size: 22px;
+    height:100%;
+    width:15%;
+}
